@@ -1,0 +1,1225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SKROLLEX</title>
+    <!-- bootsrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" 
+    ref="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/513df4d111.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="icon" href="apple-touch-icon.png">
+
+</head>
+<body class="position-relative ">
+
+    <!-- side border -->
+    <div style="height: 100vh;width: 20px;background-color: #141414;z-index: 1111111;"
+        class="b-right position-fixed d-md-flex d-none align-items-center justify-content-center">
+        <span class="d-flex align-items-center justify-content-center flex-column">
+            <i style="color: rgb(238, 169, 21);font-size: 6px; cursor: pointer;" class="bi bi-circle-fill my-2"></i>
+            <i style="color: rgb(238, 169, 21);font-size: 6px; cursor: pointer;" class="bi bi-circle-fill my-2"></i>
+            <i style="color: rgb(238, 169, 21);font-size: 6px; cursor: pointer;" class="bi bi-circle-fill my-2"></i>
+            <i style="color: rgb(238, 169, 21);font-size: 6px; cursor: pointer;" class="bi bi-circle-fill my-2"></i>
+            <i style="color: rgb(238, 169, 21);font-size: 6px; cursor: pointer;" class="bi bi-circle-fill my-2"></i>
+            <i style="color: rgb(238, 169, 21);font-size: 6px; cursor: pointer;" class="bi bi-circle-fill my-2"></i>
+            <i style="color: rgb(238, 169, 21);font-size: 6px; cursor: pointer;" class="bi bi-circle-fill my-2"></i>
+            <i style="color: rgb(238, 169, 21);font-size: 6px; cursor: pointer;" class="bi bi-circle-fill my-2"></i>
+        </span>
+    </div>
+    <div style="height: 100vh;width: 20px;background-color: #141414;z-index: 1111111;"
+        class="b-left position-fixed d-md-flex d-none align-items-center justify-content-center">
+        <span class="d-flex align-items-center justify-content-center flex-column">
+            <i style="color: rgb(238, 169, 21);font-size: 14px; cursor: pointer;" class="bi bi-facebook my-1"></i>
+            <i style="color: rgb(238, 169, 21);font-size: 14px; cursor: pointer;" class="bi bi-twitter my-1"></i>
+            <i style="color: rgb(238, 169, 21);font-size: 14px; cursor: pointer;" class="bi bi-youtube my-1"></i>
+            <i style="color: rgb(238, 169, 21);font-size: 14px; cursor: pointer;" class="bi bi-vimeo my-1"></i>
+            <i style="color: rgb(238, 169, 21);font-size: 14px; cursor: pointer;"
+                class="bi bi-linkedin my-1"></i></span>
+    </div>
+
+    <div style="width: 100%;background-color: #141414;z-index: 1111111;height: 20px;"
+        class="b-dd position-fixed d-md-flex d-none align-items-center justify-content-center">
+        <a class="nav-link fw-bolder " aria-current="page" href="#"><span class="span1">[</span>TO <span2
+                class="text-light mx-2">TOP</span2><span class="span">]</span></a>
+    </div>
+    <!-- side border ends -->
+
+
+
+    <div style="height: 100%;background-color: rgba(0, 0, 0, 0.233);" class="container-fluid position-fixed"></div>
+    <!-- navbar start -->
+    <nav style="width: 100%;z-index: 1111111;" class="navbar  navbar-dark navbar-expand-lg col-12  position-fixed">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-light fs-3" href="#"><span style="color: rgb(238, 169, 21);"
+                    >SKROLL</span>EX</a>
+            <button class="navbar-toggler" style="color: white !important;" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class=" navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul
+                    class="navbar-nav ms-lg-auto mb-2 mb-lg-0 col-lg-9 col-12 d-lg-flex align-items-lg-center justify-content-evenly">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold home" aria-current="page" href="#Home"> <span class="span1">[</span>
+                            HOME
+                            <span class="span">]</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#About"><span class="span1">[</span> ABOUT
+                            <span class="span">]</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#Team"><span
+                                class="span1">[</span>TEAM<span class="span">]</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#Services"><span
+                                class="span1">[</span>Services<span class="span">]</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#Work"><span
+                                class="span1">[</span>WORK<span class="span">]</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#Proccess"><span
+                                class="span1">[</span>Proccess<span class="span">]</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#Skills"><span
+                                class="span1">[</span>SKILLS<span class="span">]</zspan></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#Contact"><span
+                                class="span1">[</span>CONTACT<span class="span">]</span></a>
+                    </li>
+                </ul>
+                <span class="nav-link fs-4 nav-span ">
+
+                    <a>
+                        <i style="color: rgb(238, 169, 21);" class="bi bi-list d-md-flex d-none"></i>
+                    </a>
+
+                </span>
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar ends -->
+
+
+
+
+
+
+    <div style="z-index: -111;" class="container-fluid video-back p-0 overflow-hidden bg-black position-fixed">
+        <div class="row">
+            <video loop autoplay muted id="video">
+                <source src="videoplayback.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <!-- main start -->
+    <div id="Home" class="container-fluid main overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div style="height: 600px;" class="col-12 d-flex align-items-center justify-content-center flex-column">
+                    <h1 style="font-size: 350%;z-index: 1;" class="text-center text-light col-lg-3 col-md-5"><span
+                            class="text-light span-l">WE</span> <span class="span-l"
+                            style="color: rgb(238, 169, 21);">ARE</span> SCROLL<span class="span-l"
+                            style="color: rgb(238, 169, 21);">EX</span></h1>
+                    <p style="z-index: 111;" class="text-light col-lg-5 text-center mt-4">INTEGER LIGULA ANTE, POSUERE
+                        ET
+                        ANTE QUIS, ELEIFEND ELEIFEND IPSUM. IN SED ODIO MI VIVAMUS
+                        DAPIBUS GRAVIDA.</p>
+                    <div class="col-12 d-flex align-items-center justify-content-center mt-3">
+                        <button style="background-color: rgba(238, 169, 21, 0.356);z-index: 1111;"
+                            class="button px-md-4 px-3 py-2 mx-3"><a class="text-decoration-none text-light "
+                                href="">ABOUT
+                                US</a>
+                            <div class="b-h"></div>
+                        </button>
+                        <button style="background-color: rgba(7, 63, 80, 0.356);z-index: 1111;"
+                            class="button px-md-4 px-3   py-2 mx-3"><a class="text-decoration-none text-light"
+                                href="">OUR
+                                WORK</a>
+                            <div class="b-h"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- main ends -->
+
+    <!-- sec start -->
+    <div class="container-fluid sec ">
+        <div class="row d-md-flex d-none">
+            <div style="height: 220px;" class="col-4 sec-card p-0">
+                <div style="height: 70%;background-color: rgba(255, 255, 255, 0.226)"
+                    class="col d-flex align-items-center justify-content-center flex-column">
+                    <h1 style="font-family: 'Raleway', sans-serif;" class="text-light fw-light fs-2 ">RESPONSIVE</h1>
+                    <p style="letter-spacing: 2px;font-family: 'Raleway', sans-serif;" class="text-light fw-bold">LAYOUT
+                    </p>
+                </div>
+                <div style="height: 30%;background-color: rgba(172, 255, 47, 0.288);font-size: 14px;"
+                    class="col d-flex align-items-center justify-content-center">
+                    <p style="font-family: 'Raleway', sans-serif;" class="col-lg-4 col-7 mt-3 text-center text-light">
+                        Responsive
+                        Styling
+                        Retina Ready</p>
+                </div>
+            </div>
+            <div style="height: 220px;background: rgba(0, 0, 0, 0.473);" class="col-4 sec-card p-0">
+                <div style="height: 70%;" class="col d-flex align-items-center justify-content-center flex-column">
+                    <h1 style="font-family: 'Raleway', sans-serif;" class="text-light fw-light fs-2 ">PARALLAX</h1>
+                    <p style="letter-spacing: 2px;font-family: 'Raleway', sans-serif;" class="text-light fw-bold">
+                        EFFECTS</p>
+                </div>
+                <div style="height: 30%;background-color: rgba(255, 234, 47, 0.288);font-size: 14px;"
+                    class="col d-flex align-items-center justify-content-center">
+                    <p style="font-family: 'Raleway', sans-serif;" class="col-lg-4 col-10 mt-3 text-center text-light">
+                        Highly
+                        Optimized
+                        Smooth Animations</p>
+                </div>
+            </div>
+            <div style="height: 220px;" class="col-4 sec-card p-0">
+                <div style="height: 70%;background: rgba(165, 132, 42, 0.445);"
+                    class="col d-flex align-items-center justify-content-center flex-column">
+                    <h1 style="font-family: 'Raleway', sans-serif;" class="text-light fw-light fs-2 ">BOOTSTRAP</h1>
+                    <p style="letter-spacing: 2px;font-family: 'Raleway', sans-serif;" class="text-light fw-bold">
+                        FRAMEWORK</p>
+                </div>
+                <div style="height: 30%;background-color: rgba(82, 82, 82, 0.603);font-size: 14px;"
+                    class="col d-flex align-items-center justify-content-center">
+                    <p style="font-family: 'Raleway', sans-serif;"
+                        class="col-lg-6 col-md-10 mt-3 text-center text-light">Adapted for
+                        Multicolor Sections
+                        Highly Customized</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sec  ends-->
+
+    <!-- third start -->
+    <div id="About" class="container-fluid bg-dark py-5 ">
+        <div class="container">
+            <div class="row">
+                <div style="z-index: 111;" class="col-12 third-heading py-5">
+                    <h1 style="color: rgb(238, 169, 21);font-size: 320%;" class="fw-bold text-center">ABOUT</h1>
+                    <p style="font-family: 'Raleway', sans-serif;color: rgb(238, 169, 21);"
+                        class="fw-bold text-center mt-3">
+                        <span class="text-light ">WE CREATE</span> AWESOME STUFF</p>
+
+                    <p class="text-light text-center fs-5 my-5">We are Creative Team located in Kalura, Bovlandia.
+                        Tempor incididunt ut labore et dolore magna
+                        aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+                </div>
+
+                <div style="z-index:111;" class="col-lg-4 col-md-6 mt-md-0 mt-4">
+                    <div class="col-md-11 d-flex p-0">
+                        <div class="col-2 d-flex align-items-start justify-content-center"><i
+                                style="color: rgb(238, 169, 21);" class="bi bi-lightbulb h1"></i></div>
+                        <div class="col-10 d-flex align-items-start flex-column px-2">
+                            <h1 class="h4 text-light fw-bold"><span style="color: rgb(238, 169, 21);">WEB</span>
+                                DEVELOPMENT
+                            </h1>
+                            <p class="text-light lh-base ">
+                                Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet
+                                tristique mi quam vel odio. Donec non nunc condimentum, hendrerit elit sed,
+                                condimentum magna. Suspendisse imperdiet purus vel ornare cursus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div style="z-index:111;" class="col-lg-4 col-md-6 mt-md-0 mt-4">
+                    <div class="col-md-11 d-flex ">
+                        <div class="col-2 d-flex align-items-start justify-content-center"><i
+                                style="color: rgb(238, 169, 21);" class="fa-solid fa-shirt h1"></i></div>
+                        <div class="col-10 d-flex align-items-start flex-column px-2">
+                            <h1 class="h5 text-light fw-bold"><span style="color: rgb(238, 169, 21);">INTERNET</span>
+                                MARKETING
+                            </h1>
+                            <p class="text-light lh-base">
+                                Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet
+                                tristique mi quam vel odio. Donec non nunc condimentum, hendrerit elit sed,
+                                condimentum magna. Suspendisse imperdiet purus vel ornare cursus.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div style="z-index:111;" class="col-lg-4 col-md-6 mx-auto mt-lg-0 mt-4">
+                    <div class="col-md-11 d-flex ">
+                        <div class="col-2 d-flex align-items-start justify-content-center"><i
+                                style="color: rgb(238, 169, 21);" class="bi bi-megaphone h1"></i></div>
+                        <div class="col-10 d-flex align-items-start flex-column px-2">
+                            <h1 class="h5 text-light fw-bold"><span style="color: rgb(238, 169, 21);">CLIENT</span>
+                                SUPPORT
+                            </h1>
+                            <p class="text-light lh-base ">
+                                Praesent sodales, quam vitae gravida interdum, ex mi bibendum enim, sit amet
+                                tristique mi quam vel odio. Donec non nunc condimentum, hendrerit elit sed,
+                                condimentum magna. Suspendisse imperdiet purus vel ornare cursus.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- third ends -->
+
+    <!-- fourth start -->
+    <div class="container-fluid py-5 overflow-hidden four">
+        <div class="container">
+            <div class="row">
+                <div style="z-index: 111;"
+                    class="col-12 fourth-heading d-flex align-items-center justify-content-center flex-column py-5">
+                    <h1 class="text-light text-center fs-2 fw-bold"><span style="color: rgb(238, 169, 21);">HOW</span>
+                        WE WORK</h1>
+                    <p class="text-center text-light col-lg-6 lh-base mt-3">Aliquam fermentum massa ac est sollicitudin,
+                        at ultricies ligula tristique. Cras finibus, nulla
+                        ac convallis feugiat, nisl nisl lobortis est, eget auctor velit magna vel nunc. Donec nec eros
+                        rhoncus.</p>
+                </div>
+
+                <div style="z-index: 111111;" class="col-12 d-lg-flex for-con">
+                    <div
+                        class="col-lg-3 col-md-5 mx-auto px-2 fourth-card d-flex align-items-center justify-content-center flex-column">
+
+                        <div style="height: 55%;"
+                            class="col-12 d-flex align-items-center justify-content-center four-card-icon">
+                            <div style="height: 175px;width: 175px;"
+                                class=" f-icon rounded-circle d-flex align-items-center justify-content-center   ">
+                                <i class="bi bi-eye fs-1 text-white"></i>
+                            </div>
+                        </div>
+
+                        <h4 style="letter-spacing: 2px;"
+                            class="text-light fs-5 border-3 border-bottom text-center fw-bold col-6 pb-2">AWESOME</h4>
+
+                        <p class="text-center text-white mt-3">Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla
+                            pariatur.</p>
+                    </div>
+                    <div
+                        class="col-md-3 col-lg-3 col-md-5 mx-auto mt-md-0 mt-4 fourth-card d-flex align-items-center justify-content-center flex-column px-2">
+
+                        <div style="height: 55%;"
+                            class="col-12 d-flex align-items-center justify-content-center four-card-icon">
+                            <div style="height: 175px;width: 175px;"
+                                class="col-md-8 col-7 f-icon rounded-circle d-flex align-items-center justify-content-center   ">
+                                <i class="bi bi-hand-thumbs-up fs-1 text-white"></i>
+                            </div>
+                        </div>
+
+                        <h4 style="letter-spacing: 2px;"
+                            class="text-light fs-5 border-3 border-bottom text-center fw-bold col-6 pb-2">INNOVATIVE
+                        </h4>
+
+                        <p class="text-center text-white mt-3">Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla
+                            pariatur.</p>
+
+                    </div>
+                    <div
+                        class="col-md-3 col-lg-3 col-md-5 mx-auto mt-lg-0 mt-4 fourth-card d-flex align-items-center justify-content-center flex-column px-2">
+
+                        <div style="height: 55%;"
+                            class="col-12 d-flex align-items-center justify-content-center four-card-icon">
+                            <div style="height: 175px;width: 175px;"
+                                class="col-md-8 col-7 f-icon rounded-circle d-flex align-items-center justify-content-center   ">
+                                <i class="bi bi-send fs-1 text-white"></i>
+                            </div>
+                        </div>
+
+                        <h4 style="letter-spacing: 2px;"
+                            class="text-light fs-5 border-3 border-bottom text-center fw-bold col-6 pb-2">CREATIVE </h4>
+
+                        <p class="text-center text-white mt-3">Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla
+                            pariatur.</p>
+
+                    </div>
+                    <div
+                        class="col-md-3 col-lg-3 col-md-5 mx-auto mt-lg-0 mt-4 fourth-card d-flex align-items-center justify-content-center flex-column px-2">
+
+                        <div style="height: 55%;"
+                            class="col-12 d-flex align-items-center justify-content-center four-card-icon">
+                            <div style="height: 175px;width: 175px;"
+                                class="col-md-8 col-7 f-icon rounded-circle d-flex align-items-center justify-content-center   ">
+                                <i class="fa-solid fa-vial fs-1 text-white"></i>
+                            </div>
+                        </div>
+
+                        <h4 style="letter-spacing: 2px;"
+                            class="text-light fs-5 border-3 border-bottom text-center fw-bold col-8 pb-2">EXPERIMENTAL
+                        </h4>
+
+                        <p class="text-center text-white mt-3">Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum dolore eu fugiat nulla
+                            pariatur.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fourth ends -->
+
+    <!-- fifth start -->
+    <div id="Team" class="container-fluid bg-dark py-5 overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div style="z-index: 111;" class="col-12 d-flex align-items-center justify-content-center flex-column">
+                    <h1 style="color: rgb(238, 169, 21);letter-spacing: 3px;" class="text-center fw-bold">TEAM</h1>
+                    <h3 style="color: rgb(238, 169, 21);letter-spacing: 2px;" class="text-center h5 fw-bold mt-3"><span
+                            style="color: white;">Who</span> We Are</h3>
+
+                    <p class="text-white text-center col-lg-10 mt-5">Our success depends on the strength of our team.
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, nostrud exercitation.</p>
+                </div>
+
+                <div class="col-lg-3 col-6 mt-4 ">
+                    <div class="col-12 p-0 overflow-hidden position-relative fifth-card">
+                        <div style="background-color: rgba(71,67,64,.9);height: 100%;"
+                            class="col-12 position-absolute px-md-4 f-h d-flex align-items-center justify-content-center flex-column">
+                            <p style="font-size: 60%;" class="text-center text-light col-12 text">
+                                LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR
+                                INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.
+                            </p>
+                            <p class="text mt-2"><span>
+                                    <i class="fa-brands fs-4 fa-facebook-f text-light"></i>
+                                    <i class="fa fa-youtube fs-4 mx-md-3 mx-2 text-light"></i>
+                                    <i class="fa-brands fa-github text-light fs-4"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <img class="col-12" src="1.jpg" alt="">
+                    </div>
+                    <h5 style="color: rgb(238, 169, 21);letter-spacing: 2px;" class="text-center mt-3 fw-bold">MIKE
+                        JOHNSON</h5>
+                    <p class="text-light text-center">CEO & Founder</p>
+                </div>
+
+                <div class="col-lg-3 col-6 mt-4 overflow-hidden">
+                    <div class="col-12 p-0 overflow-hidden position-relative fifth-card">
+
+                        <div style="background-color: rgba(71,67,64,.9);height: 100%;"
+                            class="col-12 position-absolute px-md-4 f-h d-flex align-items-center justify-content-center flex-column">
+                            <p style="font-size: 60%;" class="text-center text-light col-12 text">
+                                LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR
+                                INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.
+                            </p>
+                            <p class="text mt-2"><span>
+                                    <i class="fa-brands fs-4 fa-facebook-f text-light"></i>
+                                    <i class="fa fa-youtube fs-4 mx-md-3 mx-2 text-light"></i>
+                                    <i class="fa-brands fa-github text-light fs-4"></i>
+                                </span>
+                            </p>
+                        </div>
+
+                        <img class="col-12" src="2.jpg" alt="">
+                    </div>
+                    <h5 style="color: rgb(238, 169, 21);letter-spacing: 2px;" class="text-center mt-3 fw-bold">JESSICA
+                        SPECTER</h5>
+                    <p class="text-light text-center">Creative Director</p>
+                </div>
+
+                <div class="col-lg-3 col-6 mt-4 overflow-hidden">
+                    <div class="col-12 p-0 overflow-hidden position-relative fifth-card">
+                        <div style="background-color: rgba(71,67,64,.9);height: 100%;"
+                            class="col-12 position-absolute px-md-4 f-h d-flex align-items-center justify-content-center flex-column">
+                            <p style="font-size: 60%;" class="text-center text-light col-12 text">
+                                LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR
+                                INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.
+                            </p>
+                            <p class="text mt-2"><span>
+                                    <i class="fa-brands fs-4 fa-facebook-f text-light"></i>
+                                    <i class="fa fa-youtube fs-4 mx-md-3 mx-2 text-light"></i>
+                                    <i class="fa-brands fa-github text-light fs-4"></i>
+                                </span>
+                            </p>
+                        </div>
+
+                        <img class="col-12" src="3.jpg" alt="">
+                    </div>
+                    <h5 style="color: rgb(238, 169, 21);letter-spacing: 2px;" class="text-center mt-3 fw-bold">ANDREW
+                        MILES</h5>
+                    <p class="text-light text-center">Developer</p>
+                </div>
+
+                <div class="col-lg-3 col-6 mt-4 overflow-hidden">
+                    <div class="col-12 p-0 overflow-hidden position-relative fifth-card">
+
+                        <div style="background-color: rgba(71,67,64,.9);height: 100%;"
+                            class="col-12 position-absolute px-md-4  px-3 f-h d-flex align-items-center justify-content-center flex-column">
+                            <p style="font-size: 60%;" class="text-center text-light col-12 text">
+                                LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISICING ELIT, SED DO EIUSMOD TEMPOR
+                                INCIDIDUNT UT LABORE ET DOLORE MAGNA ALIQUA.
+                            </p>
+                            <p class="text mt-2"><span>
+                                    <i class="fa-brands fs-4 fa-facebook-f text-light"></i>
+                                    <i class="fa fa-youtube fs-4 mx-md-3 mx-2 text-light"></i>
+                                    <i class="fa-brands fa-github text-light fs-4"></i>
+                                </span>
+                            </p>
+                        </div>
+                        <img class="col-12" src="4.jpg" alt="">
+                    </div>
+                    <h5 style="color: rgb(238, 169, 21);letter-spacing: 2px;" class="text-center mt-3 fw-bold">LYNDA
+                        SMITH</h5>
+                    <p class="text-light text-center">Programmer</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- fifth ends -->
+    <!-- sixth start -->
+    <div class="container-fluid py-5 bg-dark ">
+        <div class="row">
+
+            <div style="z-index: 1;"
+                class="col-12 six-heading py-5 d-flex align-items-center justify-content-center flex-column">
+                <h1 class="text-light text-center col-md-4 col-8 h2">WE WANT TO CHANGE <span
+                        style="color: rgb(238, 169, 21);">PEOPLES LIVES</span></h1>
+                <p class="col-md-6 text-light text-center my-4">Aliquam fermentum massa ac est sollicitudin, at
+                    ultricies ligula tristique. Cras finibus, nulla ac
+                    convallis feugiat, nisl nisl lobortis est, eget auctor velit magna vel nunc. Donec nec eros rhoncus.
+                </p>
+            </div>
+
+            <div style="z-index: 11;" class="col-md-6  px-0">
+                <div class="col-11 
+                 mx-auto  overflow-hidden d-flex align-items-center left justify-content-center">
+
+                    <button style="background-color: transparent;" class="button text-light py-2 px-3
+                 ">VIEW OUR WORK<div class="b-h"></div></button>
+
+                </div>
+            </div>
+            <div style="z-index: 111;"
+                class="col-md-6 d-flex align-items-center justify-content-center flex-column mt-md-0 mt-4">
+                <h2 class="text-light col-lg-7 col-md-8 col-11"><span style="color: rgb(238, 169, 21);">WHO</span> WE
+                    ARE</h2>
+                <p style="color: rgb(238, 169, 21);" class="col-lg-7 col-md-8 col-11">QUISQUE DOLOR LACUS, COMMODO ID
+                    HENDRERIT VIVERRA, EUISMOD IN ODIO.</p>
+                <p class="col-lg-7 col-md-8 col-11 text-light">Aliquam fermentum massa ac est sollicitudin, at ultricies
+                    ligula tristique. Cras finibus, nulla ac convallis feugiat, nisl nisl lobortis est, eget auctor
+                    velit magna vel nunc. Donec nec eros rhoncus.
+
+                </p>
+                <p class="col-lg-7 col-md-8 col-11 text-light">Aenean nisi neque, aliquam ut nibh sit amet, finibus
+                    sagittis tortor aenean consectetur.</p>
+            </div>
+        </div>
+    </div>
+    <!-- sixth ends  -->
+    <!-- seventh start -->
+    <div id="Services" class="container-fluid bg-dark py-5 overflow-hidden">
+        <div class="row px-3">
+            <div style="z-index: 11;" class="col-12 d-flex align-items-center justify-content-center flex-column py-5">
+                <h1 style="color: rgb(238, 169, 21);font-size: 300%;letter-spacing: 3px;" class="fw-bold">SERVICES</h1>
+                <p class="text-light col-md-10 text-center my-4">Duis aute irure dolor in reprehenderit in voluptate
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div style="z-index: 111;" class="col-lg-3 col-md-6">
+                <div class="col-11 border-top  ">
+                    <h3 class="col-md-5 mt-4" style="color: rgb(238, 169, 21);">WEB
+                        DESIGN</h3>
+                    <p class="text-light">Duis ipsum dolor sit amet incididunt ut labore et dolore magna.</p>
+                    <p class="text-light">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat.</p>
+
+
+                    <span class="seven-span ">
+                        <p class="text-light mt-5">- Responsive design</p>
+                        <p class="text-light">- Template development</p>
+                        <p class="text-light">- Rich media banners</p>
+                        <p class="text-light">- Frontend development </p>
+                        <p class="text-light">- Backend development</p>
+                        <p class="text-light">- Content creation</p>
+                        <p class="text-light">- Content audit</p>
+                        <p class="text-light">- Copywriting</p>
+                        <p class="text-light">- Photography</p>
+                    </span>
+                </div>
+            </div>
+
+            <div style="z-index: 111;" class="col-lg-3 col-md-6">
+                <div class="col-11 border-top  ">
+                    <h3 class="col-md-5 mt-4" style="color: rgb(238, 169, 21);">INTERNET
+                        MARKETING</h3>
+                    <p class="text-light">Excepteur ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                    </p>
+                    <p class="text-light">Excepteur sint occaecat elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat.</p>
+
+
+                    <span class="seven-span ">
+                        <p class="text-light mt-5">- Facebook advertising</p>
+                        <p class="text-light">- SEO and SEM</p>
+                        <p class="text-light">- Facebook apps</p>
+                        <p class="text-light">- Context advertising </p>
+                        <p class="text-light">- Rich media banners</p>
+                        <p class="text-light">- Game development</p>
+                        <p class="text-light">- Content creation</p>
+                        <p class="text-light">- Testing</p>
+                    </span>
+                </div>
+            </div>
+
+            <div style="z-index: 111;" class="col-lg-3 col-md-6">
+                <div class="col-11 border-top  ">
+                    <h3 class="col-md-5 mt-4" style="color: rgb(238, 169, 21);">DIGITAL
+                        PRODUCTION</h3>
+                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit eiusmod consequat.
+                    </p>
+                    <p class="text-light">Duis aute irure elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat. Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+
+
+                    <span class="seven-span ">
+                        <p class="text-light mt-5">- Rich media banners</p>
+                        <p class="text-light">- Audio production</p>
+                        <p class="text-light">- Photography </p>
+                        <p class="text-light">- Design </p>
+                        <p class="text-light">- Content creation</p>
+                        <p class="text-light">- Content audit</p>
+                        <p class="text-light">- Project management</p>
+                        <p class="text-light">- Technical requirements</p>
+                        <p class="text-light">- Testing</p>
+                    </span>
+                </div>
+            </div>
+
+            <div style="z-index: 111;" class="col-lg-3 col-md-6">
+                <div class="col-11 border-top  ">
+                    <h3 class="col-md-5 mt-4" style="color: rgb(238, 169, 21);">APPLICATION
+                        DEVELOPMENT</h3>
+                    <p class="text-light">Commodo ipsum dolor sit amet dolore magna aliqua.
+                    </p>
+                    <p class="text-light">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat.</p>
+
+
+                    <span class="seven-span ">
+                        <p class="text-light mt-5">- Facebook apps</p>
+                        <p class="text-light">- Brand immersion & research</p>
+                        <p class="text-light">- Competitive analysis</p>
+                        <p class="text-light">- Stakeholder interviews</p>
+                        <p class="text-light">- Content audit</p>
+                        <p class="text-light">- Project/platform planning</p>
+                        <p class="text-light">- Technical requirements</p>
+                        <p class="text-light">- Testing</p>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- seventh ends -->
+
+    <!-- eight start -->
+    <div class="container-fluid eight py-5">
+        <div class="row">
+            <div style="height: 300px;z-index: 11;"
+                class="col e-text d-flex align-items-center justify-content-center flex-column">
+                <h1 style="color: rgb(238, 169, 21);" class="text-center fw-bold    ">WE ARE CODERS</h1>
+                <p style="font-style: italic;" class="text-center text-light mt-2">— Lorem ipsum dolor sit amet —</p>
+            </div>
+        </div>
+    </div>
+    <!-- eight ends -->
+
+    <!-- nine start -->
+    <div id="Work" class="container-fluid bg-dark py-5">
+        <div class="row">
+            <div style="z-index: 11;"
+                class="col-12 d-flex align-items-center justify-content-center flex-column nine-heading">
+                <h1 style="letter-spacing: 3px;font-size: 350%;" class="text-center text-light fw-bold"><span
+                        style="color: rgb(238, 169, 21);">OUR</span> WORK</h1>
+                <p style="letter-spacing: 2px;" class="text-center text-light fw-bold mt-2">SOME RECENT <span
+                        style="color: rgb(238, 169, 21);">PROJECTS</span></p>
+
+                <p class="text-center text-white col-md-11 fs-5 mt-4">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore.</p>
+            </div>
+
+            <div style="z-index: 11;"
+                class="col-12 d-flex align-items-center justify-content-center bg-black flex-wrap ul-down">
+                <ul class="navbar-nav col-md-5 d-flex align-items-center justify-content-evenly flex-row  my-5">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold home" aria-current="page" href="#"> <span class="span1">[</span>
+                            ALL
+                            <span class="span">]</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#"><span class="span1">[</span> WEB
+                            <span class="span">]</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#"><span class="span1">[</span>VIDEO<span
+                                class="span">]</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#"><span
+                                class="span1">[</span>PHOTOGRAPHY<span class="span">]</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" aria-current="page" href="#"><span class="span1">[</span>DESIGN<span
+                                class="span">]</span></a>
+                    </li>
+                </ul>
+
+                <div class="col-12 d-flex align-items-center justify-content-center flex-wrap"> </div>
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold d-md-flex d-none text h3">IMAGE</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="fa-regular h3 text d-md-flex d-none fa-image"></i>
+                    </div>
+
+                    <img class="col-12" src="n-1.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold text h3 d-md-flex d-none">YOUTUBE VIDEO</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="fa-brands h3 text d-md-flex d-none fa-youtube"></i>
+                    </div>
+
+                    <img class="col-12" src="n-2.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold d-md-flex d-none text h3">Slider</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="  h3 text d-md-flex d-none bi bi-grid-3x2-gap-fill"></i>
+                    </div>
+
+                    <img class="col-12" src="n-3.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold d-md-flex d-none text h3">VIMEO VIDEO</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="  h3 text d-md-flex d-none bi bi-vimeo"></i>
+                    </div>
+
+                    <img class="col-12" src="n-4.jpg" alt="">
+                </div>
+
+
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold d-md-flex d-none text h3">Slider</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="  h3 text d-md-flex d-none bi bi-grid-3x2-gap-fill"></i>
+                    </div>
+
+                    <img class="col-12" src="n-5.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold d-md-flex d-none text h3">IMAGE</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="fa-regular h3 text d-md-flex d-none fa-image"></i>
+                    </div>
+
+                    <img class="col-12" src="n-6.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold d-md-flex d-none text h3">VIMEO VIDEO</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="  h3 text d-md-flex d-none bi bi-vimeo"></i>
+                    </div>
+
+                    <img class="col-12" src="n-7.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold d-md-flex d-none text h3">IMAGE</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="fa-regular h3 text d-md-flex d-none fa-image"></i>
+                    </div>
+
+                    <img class="col-12" src="n-8.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold text h3 d-md-flex d-none">YOUTUBE VIDEO</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="fa-brands h3 text d-md-flex d-none fa-youtube"></i>
+                    </div>
+
+                    <img class="col-12" src="n-9.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold d-md-flex d-none text h3">VIMEO VIDEO</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="  h3 text d-md-flex d-none bi bi-vimeo"></i>
+                    </div>
+
+                    <img class="col-12" src="n-10.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold d-md-flex d-none text h3">IMAGE</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="fa-regular h3 text d-md-flex d-none fa-image"></i>
+                    </div>
+
+                    <img class="col-12" src="n-11.jpg" alt="">
+                </div>
+
+                <div class="col-md-3 col-6 nine-cards overflow-hidden position-relative">
+
+                    <div style="height: 100%;background-color: rgba(255,255,255,.9);"
+                        class="n-h col-12 position-absolute d-flex align-items-center justify-content-center flex-column">
+                        <h2 style="letter-spacing: 2px;" class="fw-bold d-md-flex d-none text h3">Slider</h2>
+                        <p class="text-center text d-md-flex d-none col-md-7">Excepteur sint lorem ipsum dolor sit amet
+                            consectetur.</p>
+                        <i class="  h3 text d-md-flex d-none bi bi-grid-3x2-gap-fill"></i>
+                    </div>
+
+                    <img class="col-12" src="n-12.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- nine ends -->
+
+    <!-- tenth start  -->
+    <div id="Proccess" class="container-fluid bg-dark py-5">
+        <div class="row">
+            <div style="z-index: 111;"
+                class="col-12 ten-heading d-flex align-items-center justify-content-center flex-column">
+                <h1 style="font-size: 300%;letter-spacing: 2px;" class="text-center text-white fw-bold"><span
+                        style="color: rgb(238, 169, 21);">OUR</span> PROCESS</h1>
+                <p style="letter-spacing: 1px;" class="text-white text-center   ">WE MAKE <span
+                        style="color: rgb(238, 169, 21);">OUR CUSTOMERS HAPPY</span></p>
+                <p class="text-white text-center col-md-9 fs-5 mt-5">Curabitur eget nulla ut neque aliquam dictum. Nam
+                    sollicitudin leo dui, non malesuada felis aliquam
+                    non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                    Phasellus finibus tempor neque vel scelerisque. Cras nec ex ut eleifend mollis ut a nibh. Vivamus
+                    commodo est sit amet ultricies.</p>
+            </div>
+
+            <div style="z-index: 111;"
+                class="col-12 d-flex align-items-center justify-content-center flex-wrap mt-5 position-relative">
+
+                <div class="col-12 px-5 d-md-flex align-items-center justify-content-center">
+                    <div class=" border-dashline d-lg-flex d-none position-absolute "></div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center flex-column ten-card ">
+                    <div style="width: 175px;height: 175px;z-index: 111111;"
+                        class="ten-icons border border-white rounded-3 d-flex align-items-center justify-content-center bg-dark">
+                        <i style="color: rgb(238, 169, 21);rotate: 90deg;" class="bi bi-search fs-1"></i>
+                    </div>
+                    <h3 style="color: rgb(238, 169, 21);letter-spacing: 2px;"
+                        class="text-center h4 fw-bold my-4 col-12">RESEARCH</h3>
+                    <p class="text-light text-center col-md-11 ">Vestibulum placerat, ipsum vel mollis ornare, libero ex
+                        dapibus diam, gravida tempor.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center flex-column ten-card ">
+                    <div style="width: 175px;height: 175px;z-index: 111;"
+                        class="ten-icons border border-white rounded-3 d-flex align-items-center justify-content-center bg-dark">
+                        <i style="color: rgb(238, 169, 21);" class="fa-solid fs-1 fa-pencil"></i>
+                    </div>
+                    <h3 style="color: rgb(238, 169, 21);letter-spacing: 2px;"
+                        class="text-center h4 fw-bold my-4 col-12">CONCEPT</h3>
+                    <p class="text-light text-center col-md-11 ">Vestibulum vel dictum dolor, eget luctus risus. Nullam
+                        scelerisque viverra nisl et vehicula, in ut tellus.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center flex-column ten-card ">
+                    <div style="width: 175px;height: 175px;z-index: 111;"
+                        class="ten-icons border border-white rounded-3 d-flex align-items-center justify-content-center bg-dark">
+                        <i style="color: rgb(238, 169, 21);" class="bi bi-gear fs-1"></i>
+                    </div>
+                    <h3 style="color: rgb(238, 169, 21);letter-spacing: 2px;"
+                        class="text-center h4 fw-bold my-4 col-12">DEVELOP</h3>
+                    <p class="text-light text-center col-md-11 ">Mauris venenatis vulputate ligula eu finibus. Donec
+                        pretium libero lacus, vitae maximus purus dapibus.</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-center flex-column ten-card ">
+                    <div style="width: 175px;height: 175px;z-index: 111;"
+                        class="ten-icons border border-white rounded-3 d-flex align-items-center justify-content-center bg-dark">
+                        <i style="color: rgb(238, 169, 21);" class="bi bi-send fs-1"></i>
+                    </div>
+                    <h3 style="color: rgb(238, 169, 21);letter-spacing: 2px;"
+                        class="text-center h4 fw-bold my-4 col-12">TEST</h3>
+                    <p class="text-light text-center col-md-11 ">Proin gravida, est sed vestibulum cursus, enim libero
+                        sollicitudin lacus, vel ornare nunc.</p>
+                </div>
+
+                <p class="col-12 text-center text-white col-lg-6 col-md-9">Aliquam fermentum massa ac est sollicitudin,
+                    at ultricies ligula tristique. Cras finibus, nulla ac
+                    convallis feugiat, nisl nisl lobortis est, eget auctor velit magna vel nunc. Donec nec eros rhoncus.
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <!-- tenth ends -->
+
+    <!-- eleven start -->
+    <div class="container-fluid eleven py-5">
+        <div class="row py-5">
+            <div style="z-index: 111;" class="col-12 d-flex align-items-center justify-content-center flex-wrap">
+                <h1 class="text-center text-light fw-bold col-12"><span style="color: rgb(238, 169, 21);">OUR</span>
+                    NUMBERS</h1>
+                <h5 class="fw-bold text-light text-center col-12 my-3"><span style="color: rgb(238, 169, 21);">SOME OF
+                        THE</span> COOL FACTS ABOUT US</h5>
+
+
+                <div style="background-color: rgba(255, 255, 255, 0.11);"
+                    class="col-md-3 col-12 eleven-card d-flex align-items-center justify-content-center flex-column mt-4">
+                    <div style="background-color: rgba(255, 255, 255, 0.151);height: 60px;"
+                        class="col-12 d-flex align-items-center justify-content-center">
+                        <h1 class="col-12 text-center text-light h-hover"> </h1>
+                    </div>
+                    <p style="letter-spacing: 2px;" class="text-white mt-4">PROJECTS</p>
+                </div>
+
+                <div style="background-color: rgba(0, 0, 0, 0.185);"
+                    class="col-md-3 col-12 eleven-card d-flex align-items-center justify-content-center flex-column mt-4">
+                    <div style="background-color: rgba(255, 255, 255, 0.151);height: 60px;"
+                        class="col-12 d-flex align-items-center justify-content-center">
+                        <h1 class="col-12 text-center text-light clients"> </h1>
+                    </div>
+                    <p style="letter-spacing: 2px;" class="text-white mt-4">CLIENTS</p>
+                </div>
+
+                <div style="background-color: rgba(255, 255, 255, 0.11);"
+                    class="col-md-3 col-12 eleven-card d-flex align-items-center justify-content-center flex-column mt-4">
+                    <div style="background-color: rgba(255, 255, 255, 0.151);height: 60px;"
+                        class="col-12 d-flex align-items-center justify-content-center">
+                        <h1 class="col-12 text-center text-light followers"> </h1>
+                    </div>
+                    <p style="letter-spacing: 2px;" class="text-white mt-4">FOLLOWERS</p>
+                </div>
+
+                <div style="background-color: rgba(0, 0, 0, 0.185);"
+                    class="col-md-3 col-12 eleven-card d-flex align-items-center justify-content-center flex-column mt-4">
+                    <div style="background-color: rgba(255, 255, 255, 0.151);height: 60px;"
+                        class="col-12 d-flex align-items-center justify-content-center">
+                        <h1 class="col-12 text-center text-light year"> </h1>
+                    </div>
+                    <p style="letter-spacing: 2px;" class="text-white mt-4">YEARS</p>
+                </div>
+
+                <p class="col-12 text-center text-light mt-5">
+                    Donec vulputate sit amet dolor vel pharetra donec pharetra.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- eleven  ends-->
+
+    <!-- skillS con start -->
+    <div id="Skills" class="container-fluid py-5 bg-dark chart-con">
+        <div class="row">
+            <div style="z-index: 111;"
+                class="col-12 skill-heading d-flex align-items-center justify-content-center flex-column ">
+                <h1 class="text-white text-center fw-bold"><span style="color: rgb(238, 169, 21);">OUR</span> SKILLS
+                </h1>
+
+                <p style="letter-spacing: 2px;" class="text-white text-center fw-bold mt-2">OUR MAIN <span
+                        style="color: rgb(238, 169, 21);">SKILLS</span></p>
+                <p class="text-center text-white col-md-11 mt-4">
+                    Aliquam scelerisque vestibulum mi, eu commodo sem vestibulum convallis. Proin sed mi vehicula, porta
+                    nisi eu, facilisis nisl. Etiam tristique mi nec fermentum vestibulum. Nullam in nisi ut tellus
+                    laoreet ultrices. In ullamcorper dictum interdum vestibulum etiam tristique mi nec fermentum commodo
+                    sem vestibulum laoreet ultrices.
+                </p>
+            </div>
+
+            <div style="z-index: 11;" class="container-fluid  py-3">
+                <div class="row">
+                    <div style="z-index: 111;" class="col-lg-6 px-md-5 mt-2">
+                        <div class="nav-tab d-flex align-items-start flex-wrap ">
+                            <p class="p-3 rounded-1">HTML5</p>
+                            <p class="p-3 rounded-1">CSS3</p>
+                            <p class="p-3 rounded-1">jQuery</p>
+                            <p class="p-3 rounded-1">Wordpress</p>
+                            <p class="p-3 rounded-1">SEO</p>
+                            <p class="p-3 rounded-1">Photoshop</p>
+                        </div>
+                        <p class="text-light mt-3">Fusce hendrerit enim et lacus rutrum, fermentum consectetur mauris
+                            hendrerit. Mauris
+                            scelerisque, est eget convallis blandit, lorem est scelerisque dolor, non dapibus orci enim
+                            ut risus. Praesent rhoncus ex sit amet nunc luctus, nec eleifend erat suscipit. In feugiat
+                            dui eget gravida dignissim. Quisque sed dictum felis. Integer viverra iaculis nulla, a
+                            euismod est. Nulla nec felis ipsum. Phasellus sed scelerisque nisl, eu condimentum metus.
+                            Aenean convallis risus nec eleifend pharetra. Vivamus rhoncus eleifend mi in imperdiet.
+                            Nullam a justo quis dolor viverra elementum. Nam eleifend leo quis elementum cursus.</p>
+                    </div>
+
+                    <div
+                        class="col-lg-6 skills-chart mt-5 px-md-5 d-flex align-items-center justify-content-center flex-wrap">
+                        <div
+                            class="col-12 position-relative chart text-white fw-bold px-3 d-flex  justify-content-between">
+                            <p class="">HTML5</p>
+                            <p class=" text-end">40%</p>
+                            <div style="width: 40%;background-color: rgba(71,67,64,.82);"
+                                class="chart-back position-absolute"></div>
+
+                        </div>
+                        <div
+                            class="col-12 position-relative chart text-white fw-bold px-3 d-flex  justify-content-between">
+                            <p>CSS3</p>
+                            <p class=" text-end">45%</p>
+                            <div style="width: 45%;background-color: rgba(33,30,28,.82)"
+                                class="chart-back position-absolute"></div>
+                        </div>
+                        <div
+                            class="col-12 position-relative chart text-white fw-bold px-3 d-flex  justify-content-between">
+                            <p>jQuery </p>
+                            <p class=" text-end">50%</p>
+                            <div style="width: 50%;background-color: rgba(71,67,64,.82);"
+                                class="chart-back position-absolute"></div>
+                        </div>
+                        <div
+                            class="col-12 position-relative chart text-white fw-bold px-3 d-flex  justify-content-between">
+                            <p>PHP</p>
+                            <p class=" text-end">40%</p>
+                            <div style="width: 40%;background-color: rgba(33,30,28,.82)"
+                                class="chart-back position-absolute"></div>
+                        </div>
+                        <div
+                            class="col-12 position-relative chart text-white fw-bold px-3 d-flex  justify-content-between">
+                            <p>Wordpress</p>
+                            <p class=" text-end">90%</p>
+                            <div style="width: 90%;background-color: rgba(71,67,64,.82);"
+                                class="chart-back position-absolute"></div>
+                        </div>
+                        <div
+                            class="col-12 position-relative chart text-white fw-bold px-3 d-flex  justify-content-between">
+                            <p>SEO</p>
+                            <p class=" text-end">75%</p>
+                            <div style="width: 75%;background-color: rgba(33,30,28,.82)"
+                                class="chart-back position-absolute"></div>
+                        </div>
+
+                        <div
+                            class="col-12 position-relative chart text-white fw-bold px-3 d-flex  justify-content-between">
+                            <p>Photoshop</p>
+                            <p class=" text-end">70%</p>
+                            <div style="width: 70%;background-color: rgba(71,67,64,.82);"
+                                class="chart-back position-absolute"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- skillS con ends -->
+
+    <!-- contact con start ---------------------->
+    <div id="Contact" class="container-fluid contact py-5">
+        <div style="z-index: 1111;" class="row">
+            <h1 style="z-index: 1111;font-size: 300%;" class="col-12 text-white text-center fw-bolder mt-3">CONTACT</h1>
+            <p style="z-index: 1111;letter-spacing: 2px;font-size: 12px;" class="col-12 text-white text-center mt-2">
+                KEEP IN TOUCH</p>
+
+            <div style="z-index: 1111;"
+                class="col-md-5 d-flex mt-5 align-items-end justify-content-center flex-column contact-left">
+                <p class="text-white ">TEL: <span style="color: rgb(238, 169, 21);"> +7 (781) 503-1810</span></p>
+                <p class="text-white col-md-7 text-end">500 UNICORN PARK DR, 21ST FLOOR
+                    WOBURN, MA 01801, UNITED STATES</p>
+                <p class="mail">info@ouraddress.com</p>
+                <p class="mail">www.ouraddress.com </p>
+
+                <span style="z-index: 111;">
+                    <i class="bi bi-twitter text-white fs-4 c-icon"></i>
+                    <i class="bi bi-facebook text-white fs-4 mx-3 c-icon"></i>
+                    <i class="bi bi-youtube text-white fs-4 c-icon"></i>
+                </span>
+            </div>
+            <div style="z-index: 1111;"
+                class="col-md-7 contact-right px-md-4 mt-5 align-items-end justify-content-center d-flex flex-column px-md-5">
+                <form class="col-md-12 d-md-flex justify-content-between flex-wrap">
+                    <input class="col-md-5 px-3 py-3 col-12" type="text" placeholder="Name">
+                    <input class="col-md-5 px-3 py-3 col-12 mt-md-0 mt-3" type="text" placeholder="Email">
+                    <input style="padding-bottom: 180px;" class="col-12 mt-3 px-3 pt-2" type="text"
+                        placeholder="Message">
+                </form>
+                <div style="z-index: 111;" class="button mt-3 px-3 py-2 c-b ">Send <div class="b-h"></div>
+                </div>
+            </div>
+            <div class="col-12 d-flex align-items-center justify-content-center mt-3">
+                <div style="color: rgba(255, 255, 255, 0.692);cursor: pointer;"
+                    class="button col-lg-2 col-md-3 col-sm-6 py-3">
+                    LOCATE US ON MAP <div class="b-h"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact ends -->
+
+    <!-- footer start -->
+    <div class="container-fluid bg-black py-4">
+        <div class="row px-3">
+            <div style="z-index: 111;" class="col-lg-3 col-md-6 py-4">
+                <a class="navbar-brand fw-bold text-light fs-3 mt-3" href="#"><span style="color: rgb(238, 169, 21);"
+                        class="">SKROLL</span>EX</a>
+                <p class="text-white my-3">Mauris metus tellus, lacinia nec efficitur quis, rhoncus et mi.</p>
+                <span class="col-md-6 fs-5 d-flex align-items-center justify-content-between">
+                    <i class="bi bi-facebook text-white"></i>
+                    <i class="bi bi-twitter text-white"></i>
+                    <i class="bi bi-youtube text-white"></i>
+                    <i class="bi bi-vimeo text-white"></i>
+                    <i class="bi bi-linkedin text-white"></i>
+                </span>
+
+            </div>
+            <div style="z-index: 111;" class="col-lg-3 col-md-6 py-4">
+                <h3 style="letter-spacing: 2px;" class="text-light fs-4 mt-2">ADDITIONAL LINKS</h3>
+                <p class="footer-p mt-3">- Documentation</p>
+                <p class="footer-p">- Blog</p>
+                <p class="footer-p">- How We Work</p>
+                <p class="footer-p">- Who We Are</p>
+                <p class="footer-p">- Our Numbers</p>
+            </div>
+            <div style="z-index: 111;" class="col-lg-3 col-md-6 py-4">
+                <h3 style="letter-spacing: 2px;" class="text-light fs-4 mt-2">RECENT POSTS</h3>
+                <p class="footer-p mt-3">- Post with Featured Image</p>
+                <p class="footer-p">- And Post with Slider</p>
+                <p class="footer-p">- Post with Vimeo Video</p>
+                <p class="footer-p">- Another Post with Image</p>
+                <p class="footer-p">- More...</p>
+            </div>
+            <div style="z-index: 111;" class="col-lg-3 col-md-6 py-4 d-flex flex-wrap">
+                <h3 style="letter-spacing: 2px;" class="text-light fs-4 mt-2 col-12">RECENT POSTS</h3>
+                <img style="cursor: pointer;" class="col-md-4 col-6 mt-2 px-1" src="f-1.jpg" alt="">
+                <img style="cursor: pointer;" class="col-md-4 col-6 mt-2 px-1" src="f-2.jpg" alt="">
+                <img style="cursor: pointer;" class="col-md-4 col-6 mt-2 px-1" src="f-3.jpg" alt="">
+                <img style="cursor: pointer;" class="col-md-4 col-6 mt-2 px-1" src="f-4.jpg" alt="">
+                <img style="cursor: pointer;" class="col-md-4 col-6 mt-2 px-1" src="f-5.jpg" alt="">
+                <img style="cursor: pointer;" class="col-md-4 col-6 mt-2 px-1" src="f-6.jpg" alt="">
+
+            </div>
+            <div class="col-12 mt-3 py-2">
+                <p class="text-white-50 text-center"> © 2023 All Rights Reserved. <span
+                        class="text-white">Credits.</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- footer ends -->
+
+    <div style="height: 100vh;width: 100%;left: 0;top: 0;background: #000;"
+        class="loader d-flex align-items-center justify-content-center position-fixed">
+        <div class="wave rounded-1"></div>
+        <div class="wave mx-1 rounded-1"></div>
+        <div class="wave  rounded-1"></div>
+
+    </div>
+
+    <div  class="loader-line position-fixed ">
+
+    </div>
+
+
+
+    <!-- js cdn link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
